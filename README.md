@@ -174,7 +174,7 @@ Value: <YOUR_SPORTSDATA.IO_API_KEY>
 
 1.Go to Clusters → Select Cluster → Service → Create.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/7c6ac92a3174b1e3eec257fa913a207dd06965e5/images/Screenshot%202025-01-22%20124818.png)
 
 2.Capacity provider: Fargate
 Note: leave everything as default from the top until you reach the Task Definition option.
