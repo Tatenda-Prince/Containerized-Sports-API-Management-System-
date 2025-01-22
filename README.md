@@ -104,6 +104,16 @@ docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-a
 ```
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/ac5ba60b17dff8177c105ad0011742babed34fef/images/Screenshot%202025-01-22%20134127.png)
 
+## Success
+
+our sports api image was successfully pushed into AWS ECR repository as shown below:
+
+![image_alt]()
+
+
+
+
+
 
 
 
