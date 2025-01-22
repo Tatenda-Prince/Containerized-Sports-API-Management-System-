@@ -177,26 +177,35 @@ Value: <YOUR_SPORTSDATA.IO_API_KEY>
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/7c6ac92a3174b1e3eec257fa913a207dd06965e5/images/Screenshot%202025-01-22%20124818.png)
 
 2.Capacity provider: Fargate
+
 Note: leave everything as default from the top until you reach the Task Definition option.
 
 
 3.Select Deployment configuration family (sports-api-task)
+
 Name your service (sports-api-service)
+
 Desired tasks: 2
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/c37739872d0b6f2eb4455baff8625518b6ff67e7/images/Screenshot%202025-01-22%20125011.png)
 
 
 4.Networking: Create new security group
+
 Networking Configuration:
+
 Type: All TCP
+
 Source: Anywhere
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/40df5dd228548082fdb4612eb19d1ff992e462b2/images/Screenshot%202025-01-22%20125101.png)
 
 5.Load Balancing: Select Application Load Balancer (ALB).
+
 ALB Configuration:
+
 Create a new ALB:
+
 Name: sports-api-alb
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/58794c1da98db49d27e60c3e61fc2a0627fae7a7/images/Screenshot%202025-01-22%20125133.png)
@@ -227,12 +236,15 @@ As you can see from the image below were able successfully fetch and see the  NF
 ## Configure API Gateway
 
 1.Create a New REST API:
+
 Go to API Gateway Console → Create API → REST API
+
 Name the API (e.g., Sports API Gateway)
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/463f7049395b5f3edf372e36fabbc60b9138f9f2/images/Screenshot%202025-01-22%20145126.png)
 
 2.Set Up Integration:
+
 Create a resource /sports
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/fca091871689063c5a288c486d1f738cea60b703/images/Screenshot%202025-01-22%20130109.png)
@@ -249,8 +261,16 @@ Choose HTTP Proxy as the integration type
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/9d5ca4cd9fb1db70993e6f7e5d473ba798ac8206/images/Screenshot%202025-01-22%20130346.png)
 
+## Deploy the API:
+
+1.Deploy the API to a stage (e.g., prod)
+
+![image_alt]()
 
 
+2.Note the endpoint URL
+
+![image_alt]()
 
 
 
