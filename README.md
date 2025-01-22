@@ -184,7 +184,7 @@ Note: leave everything as default from the top until you reach the Task Definiti
 Name your service (sports-api-service)
 Desired tasks: 2
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/c37739872d0b6f2eb4455baff8625518b6ff67e7/images/Screenshot%202025-01-22%20125011.png)
 
 
 4.Networking: Create new security group
