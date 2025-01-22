@@ -230,7 +230,7 @@ As you can see from the image below were able successfully fetch and see the  NF
 Go to API Gateway Console → Create API → REST API
 Name the API (e.g., Sports API Gateway)
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/463f7049395b5f3edf372e36fabbc60b9138f9f2/images/Screenshot%202025-01-22%20145126.png)
 
 2.Set Up Integration:
 Create a resource /sports
