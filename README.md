@@ -129,7 +129,7 @@ We are going to create our ESC cluster using Farget which is serverless.
 
 4.For Infrastructure, select Fargate, then create Cluster
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/f7b1182f36b8c9e20d3ce70bddcc7d78af9f2313/images/Screenshot%202025-01-22%20123955.png)
 
 
 
