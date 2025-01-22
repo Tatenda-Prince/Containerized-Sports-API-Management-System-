@@ -119,7 +119,7 @@ We are going to create our ESC cluster using Farget which is serverless.
 
 1.Go to the ECS Console → Clusters → Create Cluster
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/f0cd1bc2cdd49cf8464c06d20ba4a8826515c81b/images/Screenshot%202025-01-22%20123728.png)
 
 
 3.Name your Cluster (sports-api-cluster)
