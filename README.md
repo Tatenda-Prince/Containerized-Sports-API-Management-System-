@@ -97,9 +97,13 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 Next we're going to build our image, tag it and push it to aws in our ECR repository by copying and paste this commands
 
 ```language
+
 docker build --platform linux/amd64 -t sports-api .
+
 docker tag sports-api:latest <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
+
 docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
+
 ```
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/ac5ba60b17dff8177c105ad0011742babed34fef/images/Screenshot%202025-01-22%20134127.png)
 
@@ -113,7 +117,7 @@ Now that our image is aws we can go ahead in the console to create a ESC Cluster
 
 ## Set Up ECS Cluster with Fargate
 
-We are going to create our ESC cluster using Farget which is serverless. 
+We are going to create our ESC cluster using Fargate which is serverless. 
 
 ## Create an ECS Cluster:
 
@@ -124,12 +128,46 @@ We are going to create our ESC cluster using Farget which is serverless.
 
 3.Name your Cluster (sports-api-cluster)
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/ce01acad392a168e0804dc6b94d2f08bd19472e0/images/Screenshot%202025-01-22%20123800.png)
 
 
 4.For Infrastructure, select Fargate, then create Cluster
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/f7b1182f36b8c9e20d3ce70bddcc7d78af9f2313/images/Screenshot%202025-01-22%20123955.png)
+
+## Create a Task Definition:
+
+1.Go to Task Definitions → Create New Task Definition
+
+![image_alt]()
+
+2.Name your task definition (sports-api-task)
+For Infrastructure, select Fargate
+
+![image_alt]()
+
+
+3.Add the container:
+
+Name your container (sports-api-container)
+Image URI: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
+Container Port: 8080
+Protocol: TCP
+Port Name: Leave Blank
+App Protocol: HTTP
+
+![image_alt]()
+
+
+4.Define Environment Eariables:
+Key: SPORTS_API_KEY
+Value: <YOUR_SPORTSDATA.IO_API_KEY>
+
+![image_alt]()
+
+5.Create task definition
+
+![image_alt]()
 
 
 
