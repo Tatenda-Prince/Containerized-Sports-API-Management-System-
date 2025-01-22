@@ -204,11 +204,12 @@ Name: sports-api-alb
 
 Target Group health check path: "/sports"
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/9fdeab66b9b2d883ee78898744456a85b08cc5f1/images/Screenshot%202025-01-22%20125159.png)
+
+then proceed to click on create Service 
 
 
-Create service
-Test the ALB:
+## Test the ALB:
 
 
 
