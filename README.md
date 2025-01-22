@@ -240,13 +240,17 @@ Create a resource /sports
 
 3.Create a GET method
 
+Choose HTTP Proxy as the integration type
+
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/0527f41c99510f230788ccd29c6d38eae3dbf037/images/Screenshot%202025-01-22%20130200.png)
 
-4.Choose HTTP Proxy as the integration type
-
-![image_alt]()
 
 5.Enter the DNS name of the ALB that includes "/sports" (e.g. http://sports-api-alb-<AWS_ACCOUNT_ID>.us-east-1.elb.amazonaws.com/sports
+
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/9d5ca4cd9fb1db70993e6f7e5d473ba798ac8206/images/Screenshot%202025-01-22%20130346.png)
+
+
+
 
 
 
