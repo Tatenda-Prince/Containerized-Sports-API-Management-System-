@@ -170,6 +170,47 @@ Value: <YOUR_SPORTSDATA.IO_API_KEY>
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/9daccee315a26ac023097b7f9af2343572aa9f8d/images/Screenshot%202025-01-22%20124607.png)
 
 
+## Run the Service with an ALB
+
+1.Go to Clusters → Select Cluster → Service → Create.
+
+![image_alt]()
+
+2.Capacity provider: Fargate
+Note: leave everything as default from the top until you reach the Task Definition option.
+
+
+3.Select Deployment configuration family (sports-api-task)
+Name your service (sports-api-service)
+Desired tasks: 2
+
+![image_alt]()
+
+
+4.Networking: Create new security group
+Networking Configuration:
+Type: All TCP
+Source: Anywhere
+
+![image_alt]()
+
+5.Load Balancing: Select Application Load Balancer (ALB).
+ALB Configuration:
+Create a new ALB:
+Name: sports-api-alb
+
+![image_alt]()
+
+
+Target Group health check path: "/sports"
+
+![image_alt]()
+
+
+Create service
+Test the ALB:
+
+
 
 
 
