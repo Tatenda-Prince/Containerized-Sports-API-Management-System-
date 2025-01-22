@@ -163,7 +163,7 @@ App Protocol: HTTP
 Key: SPORTS_API_KEY
 Value: <YOUR_SPORTSDATA.IO_API_KEY>
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/2f5d54a38c4c4f17509b667302398cb1e8fe27ad/images/Screenshot%202025-01-22%20124518.png)
 
 5.Create task definition
 
