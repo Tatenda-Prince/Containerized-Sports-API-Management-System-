@@ -235,7 +235,7 @@ Name the API (e.g., Sports API Gateway)
 2.Set Up Integration:
 Create a resource /sports
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/fca091871689063c5a288c486d1f738cea60b703/images/Screenshot%202025-01-22%20130109.png)
 
 
 3.Create a GET method
