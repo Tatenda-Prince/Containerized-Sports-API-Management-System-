@@ -56,7 +56,7 @@ This project explains how to create a containerised API management system for ac
 ## Clone the Repository
 
 ```language
-https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-.git
+git clone https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-.git
 
 cd containerized-sports-api
 ```
