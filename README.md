@@ -144,7 +144,7 @@ We are going to create our ESC cluster using Fargate which is serverless.
 2.Name your task definition (sports-api-task)
 For Infrastructure, select Fargate
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/c08faffdaabdd99e69b5f8233cd6303d12fe873d/images/Screenshot%202025-01-22%20124201.png)
 
 
 3.Add the container:
