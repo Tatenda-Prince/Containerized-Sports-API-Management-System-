@@ -285,6 +285,10 @@ You should be able to get again the NFL upcoming games as shown below.
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/73984b696213df8031ecaf273a9b9d96fec54437/images/Screenshot%202025-01-22%20130847.png)
 
+# Congratulations
+
+We Successfully learned how to set up a scalable, containerized application with ECS Creating public APIs using API Gateway.
+
 
 
 
