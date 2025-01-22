@@ -192,7 +192,7 @@ Networking Configuration:
 Type: All TCP
 Source: Anywhere
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/40df5dd228548082fdb4612eb19d1ff992e462b2/images/Screenshot%202025-01-22%20125101.png)
 
 5.Load Balancing: Select Application Load Balancer (ALB).
 ALB Configuration:
