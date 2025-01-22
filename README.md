@@ -167,7 +167,7 @@ Value: <YOUR_SPORTSDATA.IO_API_KEY>
 
 5.Create task definition
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/9daccee315a26ac023097b7f9af2343572aa9f8d/images/Screenshot%202025-01-22%20124607.png)
 
 
 
