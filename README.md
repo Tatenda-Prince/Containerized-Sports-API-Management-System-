@@ -199,7 +199,7 @@ ALB Configuration:
 Create a new ALB:
 Name: sports-api-alb
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/58794c1da98db49d27e60c3e61fc2a0627fae7a7/images/Screenshot%202025-01-22%20125133.png)
 
 
 Target Group health check path: "/sports"
