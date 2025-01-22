@@ -43,9 +43,6 @@ This project explains how to create a containerised API management system for ac
 
 5.IAM Security: Custom least privilege policies for ECS task execution and API Gateway
 
-## Use case
-
-
 
 ## Project Structure
 
@@ -113,7 +110,9 @@ our sports api image with latest tags  was successfully pushed into AWS ECR repo
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/f269d2e90c29aca959d94cc8fb94af7fb155da4b/images/Screenshot%202025-01-22%20123410.png)
 
+
 Now that our image is aws we can go ahead in the console to create a ESC Cluster to run our application. 
+
 
 ## Set Up ECS Cluster with Fargate
 
@@ -142,6 +141,7 @@ We are going to create our ESC cluster using Fargate which is serverless.
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/27c89368687b1a34df94649f03b0596c153910d6/images/Screenshot%202025-01-22%20124057.png)
 
 2.Name your task definition (sports-api-task)
+
 For Infrastructure, select Fargate
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/c08faffdaabdd99e69b5f8233cd6303d12fe873d/images/Screenshot%202025-01-22%20124201.png)
@@ -150,17 +150,24 @@ For Infrastructure, select Fargate
 3.Add the container:
 
 Name your container (sports-api-container)
+
 Image URI: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
+
 Container Port: 8080
+
 Protocol: TCP
+
 Port Name: Leave Blank
+
 App Protocol: HTTP
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/495878b2aec76e96b1e95c5b6855836c37fa1c7b/images/Screenshot%202025-01-22%20124425.png)
 
 
 4.Define Environment Eariables:
+
 Key: SPORTS_API_KEY
+
 Value: <YOUR_SPORTSDATA.IO_API_KEY>
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/2f5d54a38c4c4f17509b667302398cb1e8fe27ad/images/Screenshot%202025-01-22%20124518.png)
