@@ -224,6 +224,31 @@ As you can see from the image below were able successfully fetch and see the  NF
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/98dff0c81e87218782e6d21995e05dd499771ba1/images/Screenshot%202025-01-22%20125706.png)
 
 
+## Configure API Gateway
+
+1.Create a New REST API:
+Go to API Gateway Console → Create API → REST API
+Name the API (e.g., Sports API Gateway)
+
+![image_alt]()
+
+2.Set Up Integration:
+Create a resource /sports
+
+![image_alt]()
+
+
+3.Create a GET method
+
+![image_alt]()
+
+4.Choose HTTP Proxy as the integration type
+
+![image_alt]()
+
+5.Enter the DNS name of the ALB that includes "/sports" (e.g. http://sports-api-alb-<AWS_ACCOUNT_ID>.us-east-1.elb.amazonaws.com/sports
+
+
 
 
 
