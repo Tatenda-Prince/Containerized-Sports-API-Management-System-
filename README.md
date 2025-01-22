@@ -73,7 +73,15 @@ cd containerized-sports-api
 aws ecr create-repository --repository-name sports-api --region us-east-1
 ```
 
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/8b185e5063a6846b6d11e9e74540b8f526475f48/images/Screenshot%202025-01-22%20122753.png)
+
+
+Navigate to aws console and you wil see that AWS ECR was created as shown below:
+
+
 ![image_alt]()
+
+
 
 
 ## Authenticate Build and Push the Docker Image
