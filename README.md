@@ -66,7 +66,9 @@ cd containerized-sports-api
 
 ## Create ECR Repo
 
-`aws ecr create-repository --repository-name sports-api --region us-east-1`
+```language
+aws ecr create-repository --repository-name sports-api --region us-east-1
+```
 
 
 ## Authenticate Build and Push the Docker Image
