@@ -79,16 +79,23 @@ aws ecr create-repository --repository-name sports-api --region us-east-1
 Navigate to aws console and you wil see that AWS ECR was created as shown below:
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/00f860708c45aa0279f3e56dc39454516da89b0b/images/Screenshot%202025-01-22%20122829.png)
 
 
 
 
 ## Authenticate Build and Push the Docker Image
 
+Now are going to get authorization which allows to access our AWS ECR in AWS
+
 ```language
 
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com
+```
+
+![image_alt]()
+
+
 
 docker build --platform linux/amd64 -t sports-api .
 docker tag sports-api:latest <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
