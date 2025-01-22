@@ -49,7 +49,7 @@ This project explains how to create a containerised API management system for ac
 
 ## Project Structure
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/3c988bc311d268e1e1748349be8b6c01be2d40a6/images/Screenshot%202025-01-22%20121016.png)
 
 
 
