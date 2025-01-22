@@ -265,7 +265,7 @@ Choose HTTP Proxy as the integration type
 
 1.Deploy the API to a stage (e.g., prod)
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/f55b9935e837ca6767ff3bf941c9852c98ea498e/images/Screenshot%202025-01-22%20130638.png)
 
 
 2.Note the endpoint URL
