@@ -268,9 +268,24 @@ Choose HTTP Proxy as the integration type
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/f55b9935e837ca6767ff3bf941c9852c98ea498e/images/Screenshot%202025-01-22%20130638.png)
 
 
-2.Note the endpoint URL
+2.Note to invoke the endpoint URL copy that 
+
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/cfc20080a0cf957de14e34c9c0d30788b4ffa84b/images/Screenshot%202025-01-22%20130716.png)
+
+
+## Test the System
+
+Use curl or a browser to test:
+
+```language
+curl https://<api-gateway-id>.execute-api.us-east-1.amazonaws.com/prod/sports
+```
+
+You should be able to get again the NFL upcoming games as shown below.
 
 ![image_alt]()
+
+
 
 
 
