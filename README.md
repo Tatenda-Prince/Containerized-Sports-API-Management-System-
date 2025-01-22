@@ -64,7 +64,7 @@ https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-.gi
 cd containerized-sports-api
 ```
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/a304cdc34895b1a5f36d3c8b3e02fa5002f893f0/images/Screenshot%202025-01-22%20122714.png)
 
 
 ## Create ECR Repo
@@ -72,6 +72,8 @@ cd containerized-sports-api
 ```language
 aws ecr create-repository --repository-name sports-api --region us-east-1
 ```
+
+![image_alt]()
 
 
 ## Authenticate Build and Push the Docker Image
