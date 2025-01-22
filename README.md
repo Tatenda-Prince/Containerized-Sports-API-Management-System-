@@ -156,7 +156,7 @@ Protocol: TCP
 Port Name: Leave Blank
 App Protocol: HTTP
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/495878b2aec76e96b1e95c5b6855836c37fa1c7b/images/Screenshot%202025-01-22%20124425.png)
 
 
 4.Define Environment Eariables:
