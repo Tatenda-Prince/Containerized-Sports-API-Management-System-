@@ -211,6 +211,17 @@ then proceed to click on create Service
 
 ## Test the ALB:
 
+1.After deploying the ECS service, note the DNS name of the ALB (e.g., sports-api-alb-<AWS_ACCOUNT_ID>.us-east-1.elb.amazonaws.com)
+
+![image_alt]()
+
+2.Confirm the API is accessible by visiting the ALB DNS name in your browser and adding /sports at end (e.g, http://sports-api-alb-<AWS_ACCOUNT_ID>.us-east-1.elb.amazonaws.com/sports)
+
+## Success
+
+As you can see from the image below were able successfully fetch the NFL schedule through DNS name of the ALB the matches are listed as below 
+
+![image_alt]()
 
 
 
