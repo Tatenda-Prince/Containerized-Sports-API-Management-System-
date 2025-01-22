@@ -221,7 +221,7 @@ then proceed to click on create Service
 
 As you can see from the image below were able successfully fetch the NFL schedule through DNS name of the ALB the matches are listed as below 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/98dff0c81e87218782e6d21995e05dd499771ba1/images/Screenshot%202025-01-22%20125706.png)
 
 
 
