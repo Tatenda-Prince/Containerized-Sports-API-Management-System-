@@ -73,7 +73,7 @@ aws ecr create-repository --repository-name sports-api --region us-east-1
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/8b185e5063a6846b6d11e9e74540b8f526475f48/images/Screenshot%202025-01-22%20122753.png)
 
 
-Navigate to aws console and you wil see that AWS ECR was created as shown below:
+Navigate to aws console and you will see that AWS ECR was created as shown below:
 
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/00f860708c45aa0279f3e56dc39454516da89b0b/images/Screenshot%202025-01-22%20122829.png)
