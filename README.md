@@ -83,7 +83,6 @@ Navigate to aws console and you wil see that AWS ECR was created as shown below:
 
 
 
-
 ## Authenticate Build and Push the Docker Image
 
 Now are going to get authorization which allows to access our AWS ECR in AWS
@@ -106,9 +105,33 @@ docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-a
 
 ## Success
 
-our sports api image was successfully pushed into AWS ECR repository as shown below:
+our sports api image with latest tags  was successfully pushed into AWS ECR repository as shown below:
+
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/f269d2e90c29aca959d94cc8fb94af7fb155da4b/images/Screenshot%202025-01-22%20123410.png)
+
+Now that our image is aws we can go ahead in the console to create a ESC Cluster to run our application. 
+
+## Set Up ECS Cluster with Fargate
+
+We are going to create our ESC cluster using Farget which is serverless. 
+
+## Create an ECS Cluster:
+
+1.Go to the ECS Console → Clusters → Create Cluster
 
 ![image_alt]()
+
+
+3.Name your Cluster (sports-api-cluster)
+
+![image_alt]()
+
+
+4.For Infrastructure, select Fargate, then create Cluster
+
+![image_alt]()
+
+
 
 
 
