@@ -93,14 +93,19 @@ Now are going to get authorization which allows to access our AWS ECR in AWS
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com
 ```
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/6a3364f610ce5f4cfef3af5bea70f90140f7f46f/images/Screenshot%202025-01-22%20123222.png)
 
+Next we're going to build our image, tag it and push it to aws in our ECR repository by copying and paste this commands
 
-
+```language
 docker build --platform linux/amd64 -t sports-api .
 docker tag sports-api:latest <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
 docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-api-latest
 ```
+![image_alt]()
+
+
+
 
 
 
