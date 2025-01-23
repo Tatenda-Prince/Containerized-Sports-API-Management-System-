@@ -44,6 +44,10 @@ This project explains how to create a containerised API management system for ac
 5.IAM Security: Custom least privilege policies for ECS task execution and API Gateway
 
 
+## Use case
+You work at "Up The Chelsea" sports center as their infrastructure engineer you were tasked with deploying a highly available and scalable application that will show the NFL upcoming games to their subscriber.
+
+
 ## Project Structure
 
 ![image_alt](https://github.com/Tatenda-Prince/Containerized-Sports-API-Management-System-/blob/3c988bc311d268e1e1748349be8b6c01be2d40a6/images/Screenshot%202025-01-22%20121016.png)
