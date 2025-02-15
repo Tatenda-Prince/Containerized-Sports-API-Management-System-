@@ -1,4 +1,5 @@
-# Containerized-Sports-API-Management-System-
+# Containerized Sports API Management with Docker
+
 "Game Day Schedule API"
 
 # Technical Architecture
